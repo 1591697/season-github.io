@@ -1,0 +1,133 @@
+.nav {
+  width: 100%;
+}
+.nav .nav-header {
+  margin: auto;
+  display: flex;
+  padding: 0.7rem 0rem;
+}
+.nav .nav-header .logo {
+  float: left;
+  display: flex;
+  flex-grow: 1;
+}
+.nav .nav-header .logo a {
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.15);
+  font-size: larger;
+  cursor: pointer;
+  color: white;
+}
+.nav .nav-header .right-mume {
+  position: relative;
+  height: 2rem;
+  width: 25rem;
+  display: flex;
+  margin-top: 0.3rem;
+  color: white;
+}
+.nav .nav-header .right-mume .icon-search {
+  display: block;
+  margin-top: 0.15rem;
+  margin-right: 0.2rem;
+}
+.nav .nav-header .right-mume .mume-search {
+  color: #fff;
+  font-size: 0.9rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.nav .nav-header .right-mume .mume-itons {
+  display: none;
+  display: flex;
+  color: #fff;
+  float: right;
+  font-size: 0.9rem;
+  height: 1.5rem;
+  position: relative;
+  top: 0rem;
+}
+.nav .nav-header .right-mume .mume-itons ul li {
+  position: relative;
+  float: right;
+  padding: 0 0.5rem;
+  margin-left: 0.5rem;
+  left: 0;
+}
+.nav .nav-header .right-mume .mume-itons ul li a {
+  color: white;
+  margin-left: 0.5rem;
+}
+.nav-self {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-self .self-title {
+  font-size: 2rem;
+  color: white;
+  margin-top: 4rem;
+  text-align: center;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.15);
+  line-height: 1.5;
+}
+.nav-self .self-word {
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.15);
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+.nav-self .self-icons {
+  color: white;
+  margin-top: 1.5rem;
+}
+.nav-self .self-icons .iconfont {
+  font-size: 25px;
+  margin-right: 0.5rem;
+}
+@media only screen and (max-width: 960px) {
+  .nav-header .right-mume .icon-search {
+    position: relative;
+    right: -19rem;
+  }
+  .nav-header .right-mume .mume-search {
+    position: relative;
+    right: -19rem;
+  }
+  .nav-header .right-mume .icon-tasks::before {
+    display: block;
+    position: relative;
+    right: -18.7rem;
+  }
+  .nav-header .right-mume .limit {
+    display: none;
+    transition: all 0.3s;
+  }
+  .nav-header .right-mume .limit .mume-itons {
+    display: flex;
+  }
+  .nav-header .right-mume .limit .mume-itons ul {
+    display: flex;
+    flex-flow: column;
+  }
+  .nav-header .right-mume .limit .mume-itons ul li {
+    flex-direction: column;
+    width: 10rem;
+    height: 1.5rem;
+    position: relative;
+    left: 3rem;
+    top: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  .nav-header .right-mume .limit .mume-itons ul li:hover::after {
+    width: 11rem;
+  }
+}
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

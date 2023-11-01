@@ -1,0 +1,160 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  height: 100%;
+  width: 270px;
+  transition: all 0.5s;
+}
+.sidebar .sidebar-head {
+  padding: 0.5rem;
+}
+.sidebar .sidebar-head .author-info .author-img img {
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.3rem;
+  border: solid 1px #ddd;
+}
+.sidebar .sidebar-head .author-info .author-name {
+  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #4c4948;
+  font-size: 1.2rem;
+}
+.sidebar .sidebar-head .author-info .author-description {
+  color: #99a9bf;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+.sidebar .sidebar-head .author-info .author-follow a {
+  display: inline-block;
+  margin-top: 0.6rem;
+  padding: 0 1rem;
+  height: 2rem;
+  background: #49b1f5;
+  color: #fff;
+  text-decoration: none;
+  line-height: 2rem;
+}
+.sidebar .sidebar-head .author-info .author-follow a:hover {
+  background-color: #00ddcd;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar .sidebar-body {
+  padding: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.sidebar .sidebar-foot .author-links {
+  color: #4c4948;
+}
+.sidebar .sidebar-foot a {
+  color: #fff;
+  position: relative;
+  float: left;
+  margin-right: 0.3rem;
+  margin-left: 1.2rem;
+  margin-bottom: 0.3rem;
+  padding: 0 0.2rem;
+  height: 1.8rem;
+  background: #49b1f5;
+  line-height: 1.8rem;
+}
+.sidebar .sidebar-foot a:hover {
+  cursor: pointer;
+  background-color: #00ddcd;
+}
+.sidebarbe {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 270px;
+  background-color: #f6f8fa;
+  transition: all 0.5s;
+}
+.sidebarbe .sidebar-head {
+  padding: 0.5rem;
+}
+.sidebarbe .sidebar-head .author-info .author-img img {
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.3rem;
+  border: solid 1px #ddd;
+}
+.sidebarbe .sidebar-head .author-info .author-name {
+  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #4c4948;
+  font-size: 1.2rem;
+}
+.sidebarbe .sidebar-head .author-info .author-description {
+  color: #99a9bf;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+.sidebarbe .sidebar-head .author-info .author-follow a {
+  display: inline-block;
+  margin-top: 0.6rem;
+  padding: 0 1rem;
+  height: 2rem;
+  background: #49b1f5;
+  color: #fff;
+  text-decoration: none;
+  line-height: 2rem;
+}
+.sidebarbe .sidebar-head .author-info .author-follow a:hover {
+  background-color: #00ddcd;
+  transition: all 0.2s ease-in-out;
+}
+.sidebarbe .sidebar-body {
+  padding: 0.2rem;
+  padding-bottom: 1.2rem;
+}
+.sidebarbe .sidebar-foot .author-links {
+  color: #4c4948;
+}
+.sidebarbe .sidebar-foot a {
+  color: #fff;
+  position: relative;
+  float: left;
+  margin-right: 0.3rem;
+  margin-left: 1.2rem;
+  margin-bottom: 0.3rem;
+  padding: 0 0.2rem;
+  height: 1.8rem;
+  background: #49b1f5;
+  line-height: 1.8rem;
+}
+.sidebarbe .sidebar-foot a:hover {
+  cursor: pointer;
+  background-color: #00ddcd;
+}
+@media only screen and (max-width: 960px) {
+  .sidebar {
+    display: none;
+  }
+  .sidebarbe {
+    display: none;
+  }
+}
+.style3 {
+  display: block;
+  width: 17rem;
+  height: 2rem;
+  background-color: #49b1f5;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  line-height: 2rem;
+}
+.style4 {
+  color: white;
+}
+.style5:hover {
+  cursor: pointer;
+  background-color: #00ddcd;
+  transition: all 0.2s ease-in-out;
+}

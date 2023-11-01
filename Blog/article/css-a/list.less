@@ -1,0 +1,51 @@
+// .icon-arrowdown::before{
+//     display: inline-block;//旋转图标加上这个，为什么？
+//     position: relative;
+//     bottom: 5rem;
+//     left: 1rem;
+//     transform: rotate(-90deg);
+//   margin-top: 33rem;
+//   margin-left: 1rem;
+  
+//   }
+  
+//   .icon-arrowdownbe::before{
+//   display: inline-block;
+//   transform:  translateX(-270px) rotate(90deg);
+//   transition: transform .05s linear 0.3s;
+//   transition: all 0.5s;
+//   position: relative;
+//   }
+//   .icon-arrowdownaf::before{
+//   display: inline-block;
+//   transform: rotate(-90deg);
+//   transition: transform .05s linear 0.3s;
+//   position: relative;
+//   }
+
+
+.icon-arrowdown::before{
+    display: inline-block;//旋转图标加上这个，为什么？
+    transform: rotate(-90deg);
+   position: fixed;
+ top: 500px;
+ left: 40px;
+
+}
+
+.icon-arrowdownbe::before{
+  display: inline-block;
+  transform: rotate(90deg);
+  transition: transform .05s linear 0.3s;
+  left: 1.5rem;
+ z-index: 1;
+}
+.icon-arrowdownaf::before{
+  display: inline-block;
+  transform: rotate(-90deg);
+  transition: transform .05s linear 0.3s;
+
+  
+ 
+  
+}

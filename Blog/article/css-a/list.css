@@ -1,0 +1,19 @@
+.icon-arrowdown::before {
+  display: inline-block;
+  transform: rotate(-90deg);
+  position: fixed;
+  top: 500px;
+  left: 40px;
+}
+.icon-arrowdownbe::before {
+  display: inline-block;
+  transform: rotate(90deg);
+  transition: transform 0.05s linear 0.3s;
+  left: 1.5rem;
+  z-index: 1;
+}
+.icon-arrowdownaf::before {
+  display: inline-block;
+  transform: rotate(-90deg);
+  transition: transform 0.05s linear 0.3s;
+}

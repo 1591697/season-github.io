@@ -1,0 +1,38 @@
+.hrr {
+  width: calc(100% - 0.25rem);
+  border: 2px dashed #a4d8fa;
+}
+.hrr2 {
+  width: calc(100% - 0.25rem);
+  border: 2px dashed #a4d8fa;
+}
+.icon-huahonghuazhiwuhuaduo::before {
+  display: inline-block;
+  position: relative;
+  top: -19px;
+  color: #0a9e43;
+  width: 0.5rem;
+  height: 0.5rem;
+  transform: translateX(0px);
+  transition: all 1s cubic-bezier(0.57, 0.23, 0.5, 1.4);
+}
+.style {
+  display: inline-block;
+  transform: translateX(260px);
+  transition: all 1s cubic-bezier(0.57, 0.23, 0.5, 1.4);
+}
+.style2 {
+  display: inline-block;
+  transform: translateX(10px);
+  transition: all 1s cubic-bezier(0.57, 0.23, 0.5, 1.4);
+}
+.style-2 {
+  display: inline-block;
+  transform: translateX(800px);
+  transition: all 1s cubic-bezier(0.57, 0.23, 0.5, 1.4);
+}
+.style2-2 {
+  display: inline-block;
+  transform: translateX(10px);
+  transition: all 1s cubic-bezier(0.57, 0.23, 0.5, 1.4);
+}
